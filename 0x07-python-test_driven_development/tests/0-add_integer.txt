@@ -2,15 +2,8 @@
 How to use 0-add_integer.py
 ===========================
 
-This module defines the integer addition of '2' numbers ``add_integer(a, b=98)``.
-
 Usage
 =====
-
-``add_integer(...)`` is used for integer addition of two numbers, it receives two argument.
-The only one is compulsory while the second is initially set to 98.
-
-::
 
     >>> add_integer = __import__('0-add_integer').add_integer
     >>> add_integer(2, 3)
